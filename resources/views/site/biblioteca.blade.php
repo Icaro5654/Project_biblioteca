@@ -25,11 +25,11 @@
                           <li class="nav-item" role="presentation">
                             <a class="nav-link" id="books-tab" data-toggle="tab" href="#books" role="tab" aria-controls="books" aria-selected="false">E-books</a>
                           </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Repositorio Institucional</a>
+                          </li> 
                           <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="repository-tab" data-toggle="tab" href="#repository" role="tab" aria-controls="repository" aria-selected="false">Repositorio Institucional</a>
-                          </li>
-                          <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="true">Contatos</a>
+                            <a class="nav-link" data-toggle="collapse" href="#collapseContatos" role="tab" aria-expanded="false" aria-controls="collapseContatos">Contatos</a>
                           </li>
                       </ul>
                     </span>
@@ -49,6 +49,11 @@
                           acompanhar os preceitos federais. A instituição foi se adequando dentro da realidade do Estado, 
                           passando por vários processos de reestruturação do seu organograma a partir de 1955. Os anos de 
                           reorganização estrutural foram: 1955 / 1965 / 1967 / 1971 / 1981 / 1984 / 1990 / 1991..</p>
+                      </div>
+                    </div>
+                    <div class="collapse multi-collapse" id="collapseContatos"  style="width: 50rem;">{{--Segundo Collapse--}}
+                      <div class="card card-body">
+                        Escolha o Setor desejado:
                       </div>
                     </div>
                       <div>{{-- abas à esquerda --}}
