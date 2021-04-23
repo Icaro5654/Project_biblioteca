@@ -61,6 +61,16 @@
               </div>
             </span>
           </div>
+            <div class="card card-body">
+              A pagina do memorial virtual da Secretaria de Estado de Saúde do Amazonas foi pensada para que a historia da saude 
+              <p> pública do Estado se mantenha viva, além de organizar a trajetória da historia da Secretaria de Estado de Saúde.<br>
+                Lançado no dia XX de XXXX de 2021 pela SES-AM, contará com fases XXXXX.
+
+                <p align="center"> <b> Mergulhe nessa história conosco!</b></p>
+
+            </div>
+              <br>
+              <h3 align="center" style="color:#011931"> <b>Linha do tempo da saúde no Amazonas</h3>
          
       </div> {{-- div do corpo principal --}}
     </div>
