@@ -3,35 +3,69 @@
 @section('content')
 <div class="container">
   <div class="row justify-content-center">
-              {{-- topo da pagina --}}       
+              {{--------------------------------------------------- TOPO DA PAGE-------------------------------------------------------}}       
       <form id="teste_submit" name ="teste_submit" method="post" onsubmit="return false;" action="http://localhost:8000/biblioteca">    
               <div class="shadow-lg p-3 mb-5 bg-white rounded">
                 <img id="baner" class="img-fluid" src="biblioteca.png">
-                  <div> {{-- abas do layout --}}
+                  <div> 
                     <span class="border">
-                        <ul class="nav nav-tabs-light" style="background-color: #011931;" id="myTab" role="tablist">
-                          <li class="nav-item" role="presentation">
-                            <a class="nav-link" data-toggle="collapse" href="#collapseExample" role="tab" aria-expanded="false" aria-controls="collapseExample">Quem somos</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="http://10.200.7.15:8080/Biblivre5/ ">Biblivre - Catalago online</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:8000/memorial">Memorial Virtual</a>
-                          </li> 
-                          <li class="nav-item">
-                            <a class="nav-link" href="http://localhost:8000/publica%C3%A7%C3%B5es">Publicações</a>
-                          </li> 
-                          <li class="nav-item" role="presentation">
-                            <a class="nav-link" id="books-tab" data-toggle="tab" href="#books" role="tab" aria-controls="books" aria-selected="false">E-books</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Repositorio Institucional</a>
-                          </li> 
-                          <li class="nav-item" role="presentation">
-                            <a class="nav-link" data-toggle="collapse" href="#collapseContatos" role="tab" aria-expanded="false" aria-controls="collapseContatos">Contatos</a>
-                          </li>
-                      </ul>
+                      {{-- ------------------------------------------INICIO DO NAVBAR--------------------------------------- --}}
+
+                      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #125686;">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button> 
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item" role="presentation">
+                              <a class="nav-link text-light" data-toggle="collapse" href="#collapseExample" role="tab" aria-expanded="false" aria-controls="collapseExample">Quem somos</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="http://10.200.7.15:8080/Biblivre5/ ">Biblivre - Catalago online</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="http://localhost:8000/memorial">Memorial Virtual</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="http://localhost:8000/publica%C3%A7%C3%B5es">Publicações</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="https://acervodigital.ufpr.br/">E-books</a>
+                            </li> 
+                            <li class="nav-item">
+                              <a class="nav-link text-light" href="https://acervodigital.ufpr.br/">Repositorio Institucional</a>
+                            </li> 
+                            <li class="nav-item" role="presentation">
+                              <a class="nav-link text-light" data-toggle="collapse" href="#collapseContatos" role="tab" aria-expanded="false" aria-controls="collapseContatos">Contatos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Serviçoss
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #125686;">
+                                <a class="dropdown-item shadow text-light" href="https://forms.gle/zNMFznNKx6A1RDig6">Ficha catalográfica ISBN</a>
+                                <a class="dropdown-item shadow text-light" href="#">Apoio a pesquisa</a>
+                                <a class="dropdown-item shadow text-light" href="https://docs.google.com/forms/d/e/1FAIpQLScHkEgKVNCQGWBrSsPctWTsJL3vHkBw3uUM41J5arcsJDUnNQ/viewform?gxids=7628">Empréstimo de obras</a>
+                                <a class="dropdown-item shadow text-light" href="#">Agendamento</a>
+                                <a class="dropdown-item shadow text-light" href="#">fontes de Informações</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Produtos
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #125686;">
+                                  <a class="dropdown-item shadow text-light" href="#">Treinamentos</a>
+                                  <a class="dropdown-item shadow text-light" href="#">Resumo de Atos Normativos</a>
+                                  <a class="dropdown-item shadow text-light" href="#">Boletim informativo</a>
+                                  
+                              </li>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </nav>
+
+                      {{-------------------------------------------------- FIM DO NAVBAR---------------------------------------------------------- --}}
+                      
                     </span>
                     <div class="collapse" id="collapseExample">{{--<== collapse --}}
                       <div class="card card-body" style="width: 50rem;">
@@ -51,42 +85,30 @@
                           reorganização estrutural foram: 1955 / 1965 / 1967 / 1971 / 1981 / 1984 / 1990 / 1991..</p>
                       </div>
                     </div>
-                    <div class="collapse multi-collapse" id="collapseContatos"  style="width: 50rem;">{{--Segundo Collapse--}}
-                      <div class="card card-body">
-                        Escolha o Setor desejado:
-                      </div>
-                    </div>
-                      <div>{{-- abas à esquerda --}}
-                        <div class="btn-group" role="group">
-                          <button id="btnGroupDrop1" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Serviços
-                          </button>
-                          <div class="dropdown-menu" style="background: rgb(164, 184, 190)" aria-labelledby="btnGroupDrop1">
-                            <a class="dropdown-item shadow" href="https://forms.gle/zNMFznNKx6A1RDig6">Ficha catalográfica ISBN</a>
-                            <a class="dropdown-item shadow" href="#">Apoio à pesquisa</a>
-                            <a class="dropdown-item shadow" href="#">Empréstimo de obras</a>
-                            <a class="dropdown-item shadow" href="#">Agendamento de horário para sala sala de estudo/reunião</a>
-                            <a class="dropdown-item shadow" href="#">Fontes de informação</a>
+                        <br>
+                        <br>
+                         {{-- <== imagem do layout "work.png --}} 
+                          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-interval="1000">
+                                <img src="work.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-interval="2000">
+                                <img src="work.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="work.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
                           </div>
-                        </div>
-                        <br>
-                        <br>
-                        <div class="btn-group" role="group">
-                          <button id="btnGroupDrop1" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Produtos
-                          </button>
-                          <div class="dropdown-menu"  style="background: rgb(164, 184, 190)" aria-labelledby="btnGroupDrop1">
-                            <a class="dropdown-item shadow" href="#">Treinamentos</a>
-                            <a class="dropdown-item shadow" href="#">Resumo de Atos Normativos</a>
-                            <a class="dropdown-item shadow" href="#">Boletim iformativo</a>
-                          </div>
-                        </div>
-                        <br>
-                        <br>
-                        <div class="row justify-content-center">
-                          <img class="shadow col-10" src="work.png"> {{-- <== imagem do layout --}} 
-                        </div>
-                      </div>{{-- FIM DA ABA --}}
                   </div>  
               </div>
        </form>   
