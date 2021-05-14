@@ -2,16 +2,16 @@
 
 @section('content')
 <div class="container">
-  <div class="row justify-content-center">
               {{--------------------------------------------------- TOPO DA PAGE-------------------------------------------------------}}       
       <form id="teste_submit" name ="teste_submit" method="post" onsubmit="return false;" action="http://localhost:8000/biblioteca">    
               <div class="shadow-lg p-3 mb-5 bg-white rounded">
-                <img id="baner" class="img-fluid" src="biblioteca.png">
+                <img id="baner" class="img-fluid" src="biblioteca.png" width="100%">
                   <div> 
                     <span class="border">
                       {{-- ------------------------------------------INICIO DO NAVBAR--------------------------------------- --}}
 
                       <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #125686;">
+                         <a class="navbar-brand text-light" href="#">Home</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button> 
@@ -56,7 +56,7 @@
                                   <a class="dropdown-item shadow text-light" href="#">Treinamentos</a>
                                   <a class="dropdown-item shadow text-light" href="#">Resumo de Atos Normativos</a>
                                   <a class="dropdown-item shadow text-light" href="#">Boletim informativo</a>
-                                  
+                                  <a class="dropdown-item shadow text-light" href="#">Legislação</a>
                               </li>
                               </div>
                             </li>
@@ -85,10 +85,11 @@
                           reorganização estrutural foram: 1955 / 1965 / 1967 / 1971 / 1981 / 1984 / 1990 / 1991..</p>
                       </div>
                     </div>
+                    
                         <br>
                         <br>
                          {{-- <== imagem do layout "work.png --}} 
-                          <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                          <div id="carouselExampleInterval" class="carousel slide " data-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active" data-interval="1000">
                                 <img src="work.png" class="d-block w-100" alt="...">
@@ -112,7 +113,6 @@
                   </div>  
               </div>
        </form>   
-    </div>
 </div>
 @endsection
  

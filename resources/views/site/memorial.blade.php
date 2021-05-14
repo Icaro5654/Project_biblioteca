@@ -4,34 +4,47 @@
  {{-- TOPO --}}
 <div class="container">
     <div class="row justify-content-center">
-      <div class="shadow-lg p-3 mb-5 bg-white rounded">
+      <div class="shadow-lg p-3 mb-5 bg-white rounded">{{-- div principal --}}
+      
         <img class="img-fluid col-12" src="mmrl.png">
           <div>
             <span class="border">
-              <ul class="nav justify-content-center"  style="background-color: #011931;">{{-- abas do layout --}}
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Projetos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">E-books</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Videos/Fotos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Entrevistas/Podcast</a>  
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Faça parte dessa história</a>    
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" data-toggle="collapse" href="#collapseContatos" role="tab" aria-expanded="false" aria-controls="collapseContatos">Contatos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Creditos</a>
-                  </li>   
-              </ul> 
-              <div class="collapse multi-collapse" id="collapseContatos"  style="width: 50rem;">{{--Segundo Collapse--}}
+             
+              {{-- -----------------------------------------------------------------------------INICIO DO NAVBAR------------------------------------------------------------------------------------------------ --}}
+              <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #125686;">
+                <a class="navbar-brand text-light" href="#">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">E-books</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Videos/Fotos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Entrevistas/Podcast</a>
+                    </li> 
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Faça parte de história</a>
+                    </li> 
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link text-light" data-toggle="collapse" href="#collapseContatos" role="tab" aria-expanded="false" aria-controls="collapseContatos">Contatos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Creditos</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+              {{----------------------------------------------------------------Collapse-------------------------------------------------------------}}
+              <div class="collapse multi-collapse" id="collapseContatos"  style="width: 50rem;">
                 <div class="card card-body">
                   <div>
                     <h3 class="page-header" style="text-align:left">Contatos</h3>{{--Inicio de Contatos--}}
@@ -62,18 +75,19 @@
             </span>
           </div>
             <div class="card card-body">
+              <p align="center"> <b> Mergulhe nessa história conosco!</b></p>
+
               A pagina do memorial virtual da Secretaria de Estado de Saúde do Amazonas foi pensada para que a historia da saude 
               <p> pública do Estado se mantenha viva, além de organizar a trajetória da historia da Secretaria de Estado de Saúde.<br>
                 Lançado no dia XX de XXXX de 2021 pela SES-AM, contará com fases XXXXX.
 
-                <p align="center"> <b> Mergulhe nessa história conosco!</b></p>
+               
 
             </div>
               <br>
-              <h3 align="center" style="color:#011931"> <b>Linha do tempo da saúde no Amazonas</h3>
+              <h3 align="center" style="color:#05407b"> <b>Linha do tempo da saúde no Amazonas</h3>
          
       </div> {{-- div do corpo principal --}}
     </div>
 </div>
 @endsection
-

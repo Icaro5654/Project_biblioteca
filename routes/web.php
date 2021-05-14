@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/teste', 'HomeController@index')->name('site.teste');
+Route::get('/', 'HomeController@index')->name('site.teste');
 
 
 
