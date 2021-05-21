@@ -76,8 +76,8 @@
                                   </table>
                           </div>
                         </div>
-                          {{--Fim de Contatos--}}
-                      </div>
+                      </div> {{-- <====== fim de contatos------------ --}}
+                      
                     </div>
                       <div>{{-- button à esquerda --}}
                         <div class="btn-group" role="group">

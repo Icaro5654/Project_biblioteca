@@ -43,11 +43,11 @@
                 </div>
               </nav>
 
-              {{----------------------------------------------------------------Collapse-------------------------------------------------------------}}
+              {{----------------------------------------------------------------Collapse de Contatos-------------------------------------------------------------}}
               <div class="collapse multi-collapse" id="collapseContatos"  style="width: 50rem;">
                 <div class="card card-body">
                   <div>
-                    <h3 class="page-header" style="text-align:left">Contatos</h3>{{--Inicio de Contatos--}}
+                    <h3 class="page-header" style="text-align:left">Contatos</h3>
                       <br>
                       <div align="center">
                       <form  method="post">

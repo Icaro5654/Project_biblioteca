@@ -40,7 +40,7 @@
                             </li>
                             <li class="nav-item dropdown">
                               <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Serviçoss
+                                Serviços
                               </a>
                               <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #125686;">
                                 <a class="dropdown-item shadow text-light" href="https://forms.gle/zNMFznNKx6A1RDig6">Ficha catalográfica ISBN</a>
@@ -63,6 +63,35 @@
                           </ul>
                         </div>
                       </nav>
+                      {{------------------------------------------COLLAPSE DE CONTATOS--------------------------------------------}}
+
+                      <div class="collapse multi-collapse" id="collapseContatos"  style="width: 100%">
+                        <div class="card card-body">
+                          <div>
+                            <h3 class="page-header" style="text-align:left">Contatos</h3>
+                              <br>
+                              <div align="center">
+                              <form  method="post">
+                                <label class="control-label">Setor </label>
+                          
+                                <select id="setor" name="setor" onchange="submit(this.form)">
+                                  <option selected>Selecione</option><option value='1'>Gabinete</option><option value='2'>Conselhos</option><option value='3'>Assessorias</option><option value='4'>Dep. Financeiro</option><option value='5'>Dep. Recursos Humanos</option><option value='6'>Dep. Logística</option><option value='7'>Sec. Exec. Adj. Tecnologia da Informação</option><option value='8'>Dep. Planejamento</option><option value='9'>Dep. Controle e Avaliação dos Serviços</option><option value='10'>Dep. Atenção Básica</option><option value='11'>Sec. Exec. Adj. Capital</option><option value='12'>Sec. Exec. Adj. Interior</option><option value='13'>Fundo Estadual de Saúde</option><option value='14'>Complexo Regulador</option>			</select>
+                                <!--<input type="submit" name="pesquisar" value="Pesquisar" /> -->
+                                </p>
+                              </form>
+                              <br>
+                              <table align="center" class="table table-striped table-responsive" border="1">
+                                <tr bgcolor="#EAEFDC">
+                                  <td align="center" class="titulo">Setor</td>
+                                  <td align="center" class="titulo">Responsável</td>
+                                  <td align="center" class="titulo">Telefone</td>
+                                  <td align="center" class="titulo">Email</td>
+                                </tr>
+                                    </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
                       {{-------------------------------------------------- FIM DO NAVBAR---------------------------------------------------------- --}}
                       
@@ -88,7 +117,8 @@
                     
                         <br>
                         <br>
-                         {{-- <== imagem do layout "work.png --}} 
+                        
+                         {{--------------------------------CARROSEL COMIMAGEM -------------------------------}} 
                           <div id="carouselExampleInterval" class="carousel slide " data-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active" data-interval="1000">
