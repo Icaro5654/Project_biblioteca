@@ -57,7 +57,7 @@
                                   <a class="dropdown-item shadow text-light" href="#">Resumo de Atos Normativos</a>
                                   <a class="dropdown-item shadow text-light" href="#">Boletim informativo</a>
                                   <a class="dropdown-item shadow text-light" href="#">Legislação</a>
-                              </li>
+                                </div>
                               </div>
                             </li>
                           </ul>
@@ -118,7 +118,7 @@
                         <br>
                         <br>
                         
-                         {{--------------------------------CARROSEL COMIMAGEM -------------------------------}} 
+                         {{--------------------------------CARROSEL COM IMAGEM -------------------------------}} 
                           <div id="carouselExampleInterval" class="carousel slide " data-ride="carousel">
                             <div class="carousel-inner">
                               <div class="carousel-item active" data-interval="1000">
