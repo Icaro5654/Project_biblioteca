@@ -98,14 +98,11 @@
                     </span>
                     <div class="collapse" id="collapseExample">{{--<== collapse --}}
                       <div class="card card-body" style="width: 50rem;">
-                        <h3 class="page-header" style="text-align:left">História da Secretaria de Estado de Saude do Amazonas </h3>
+                        <h3 class="page-header" style="text-align:left">**Aqui conta sobre a Biblioteca da SES-AM e seus funionarios**</h3>
                         <br>
-                        <p  align="left">Lei nº 12 de 09/05/1952, publicada em Diário Oficial de 09/05/1953: Cria a Secretaria de Educação, Cultura e Saúde.</p><br>
-                        <p  align="left">Lei nº 108 de 23/12/1955: Desmembra a Saúde da Educação e cria a Secretaria de Assistência e Saúde - SAS.</p><br>
-                        <p  align="left">Lei nº 233, de 18 de Junho de 1965: Estabelece nova estrutura administrativa da Secretaria. </p><br>
-                        <p  align="left">Lei nº 1336 de 13/07/1979: Cria a Secretaria de Estado de Saúde - SESAU.</p><br>
-                        <p  align="left">Decreto nº 8049 de 19 de Julho de 1984: Reformula estrutura da Secretaria.</p>
-                        <br>
+                        <p  align="left"> O site da biblioteca da Secretaria de Estado de Saúde do Amazonas foi pensada para que a historia da saude 
+                          <p> pública do Estado se mantenha viva, além de organizar a trajetória da historia da Secretaria de Estado de Saúde.<br></p><br>
+                        
                         <p  align="left"><b>ESTRUTURAÇÃO</b></p>
                         <p  align="left">Como todo órgão institucional a Secretaria de Estado de Saúde foi criada dentro de um 
                           contexto e realidade inicial e precisou acompanhar o processo de mudanças das ações de saúde e 
@@ -144,18 +141,4 @@
               </div>
        </form>   
 </div>
-@endsection
- 
-                            
-                            
-                            {{-- 
-                               <style>
-                              img{
-                                margin-left: auto;
-                              margin-right: auto;
-                              max-width: 40em;
-                          }
-                              }
-                            </style>
-                              --}}
-                            
+@endsection      
